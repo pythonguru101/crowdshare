@@ -7,10 +7,10 @@ import {
   Outlet,
 } from "react-router-dom";
 import Home from "../pages/home/Home";
-import {Container} from '@mui/material'
+// import { Container } from "@mui/material";
 import Header from "../components/header/Header";
 import Footer from "../components/footer/Footer";
-
+// import HeaderSection from "../components/header/HeaderSection";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -20,23 +20,19 @@ const router = createBrowserRouter(
   )
 );
 
-function NavBar(){
-    return (
-        <>
-        <Header/>
-        <Container>
-            <Outlet/>
-        </Container>
-        <Footer/>
-        </>
-        
-    );
+function NavBar() {
+  return (
+    <>
+      <Header />
+      {/* <HeaderSection /> */}
+      <Outlet />
+      <Footer />
+    </>
+  );
 }
 
-function NavigationRoute(){
-    return (
-        <RouterProvider router={router}/>
-    );
+function NavigationRoute() {
+  return <RouterProvider router={router} />;
 }
 
-export default NavigationRoute
+export default NavigationRoute;
