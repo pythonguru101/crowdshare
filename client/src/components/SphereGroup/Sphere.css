@@ -1,0 +1,13 @@
+.App {
+    height: 100vh;
+    background-color: #f9f9f9;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .bubble {
+    position: absolute;
+    border-radius: 50%;
+    opacity: 0.8;
+    transition: all 0.1s ease-in-out;
+  }

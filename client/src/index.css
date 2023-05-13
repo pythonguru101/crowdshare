@@ -1,0 +1,83 @@
+@font-face {
+  font-family: "Poppins-Black";
+  src: url("./assets/fonts/Poppins/Poppins-Black.ttf");
+}
+@font-face {
+  font-family: "Poppins-BlackItalic";
+  src: url("./assets/fonts/Poppins/Poppins-BlackItalic.ttf");
+}
+@font-face {
+  font-family: "Poppins-Bold";
+  src: url("./assets/fonts/Poppins/Poppins-Bold.ttf");
+}
+@font-face {
+  font-family: "Poppins-BoldItalic";
+  src: url("./assets/fonts/Poppins/Poppins-BoldItalic.ttf");
+}
+@font-face {
+  font-family: "Poppins-Light";
+  src: url("./assets/fonts/Poppins/Poppins-Light.ttf");
+}
+@font-face {
+  font-family: "Poppins-Medium";
+  src: url("./assets/fonts/Poppins/Poppins-Medium.ttf");
+}
+@font-face {
+  font-family: "Poppins-ExtraLight";
+  src: url("./assets/fonts/Poppins/Poppins-ExtraLight.ttf");
+}
+@font-face {
+  font-family: "Poppins-SemiBold";
+  src: url("./assets/fonts/Poppins/Poppins-SemiBold.ttf");
+}
+@font-face {
+  font-family: "Sofia-Pro-Regular";
+  src: url("./assets/fonts/Sofia\ Pro\ Regular.ttf");
+}
+@font-face {
+  font-family: "Sofia-Pro-Black";
+  src: url("./assets/fonts/SofiaPro-Black.ttf");
+}
+@font-face {
+  font-family: "Sofia-Pro-SemiBold";
+  src: url("./assets/fonts/Sofia\ Pro\ SemiBold.ttf");
+}
+@font-face {
+  font-family: "Sofia-Pro-Bold";
+  src: url("./assets/fonts/Sofia\ Pro\ Bold.ttf");
+}
+@font-face {
+  font-family: "Sofia-Pro-Ultralight";
+  src: url("./assets/fonts/Sofia\ Pro\ UltraLight.ttf");
+}
+
+@font-face {
+  font-family: "PTSans-Bold";
+  src: url("./assets/fonts/PT_Sans/PTSans-Bold.ttf");
+}
+@font-face {
+  font-family: "PTSans-BoldItalic";
+  src: url("./assets/fonts/PT_Sans/PTSans-BoldItalic.ttf");
+}
+@font-face {
+  font-family: "PTSans-Italic";
+  src: url("./assets/fonts/PT_Sans/PTSans-Italic.ttf");
+}
+@font-face {
+  font-family: "PTSans-Regular";
+  src: url("./assets/fonts/PT_Sans/PTSans-Regular.ttf");
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    "Poppins", "Acme", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}

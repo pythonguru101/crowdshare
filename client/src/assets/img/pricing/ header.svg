@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="263" height="63" viewBox="0 0 263 63">
+  <defs>
+    <filter id="_5_header" x="0" y="0" width="263" height="63" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.569"/>
+      <feComposite operator="in" in2="blur"/>
+    </filter>
+    <filter id="_5_header-2" x="0" y="0" width="263" height="63" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-color="#fff" flood-opacity="0.694" result="color"/>
+      <feComposite operator="out" in="SourceGraphic" in2="blur-2"/>
+      <feComposite operator="in" in="color"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g data-type="innerShadowGroup">
+    <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#_5_header)">
+      <g id="_5_header-3" data-name="5 header" transform="translate(9 6)" fill="#27353d" stroke="#fff" stroke-width="1">
+        <path d="M0,0H220a25,25,0,0,1,25,25V45a0,0,0,0,1,0,0H25A25,25,0,0,1,0,20V0A0,0,0,0,1,0,0Z" stroke="none"/>
+        <path d="M.5.5H220A24.5,24.5,0,0,1,244.5,25V44.5a0,0,0,0,1,0,0H25A24.5,24.5,0,0,1,.5,20V.5A0,0,0,0,1,.5.5Z" fill="none"/>
+      </g>
+    </g>
+    <path id="_5_header-4" data-name="5 header" d="M0,0H220a25,25,0,0,1,25,25V45a0,0,0,0,1,0,0H25A25,25,0,0,1,0,20V0A0,0,0,0,1,0,0Z" transform="translate(9 6)" fill="#00A6F3"/>
+    <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#_5_header-2)">
+      <path id="_5_header-5" data-name="5 header" d="M0,0H220a25,25,0,0,1,25,25V45a0,0,0,0,1,0,0H25A25,25,0,0,1,0,20V0A0,0,0,0,1,0,0Z" transform="translate(9 6)" fill="#fff"/>
+    </g>
+    <g id="_5_header-6" data-name="5 header" transform="translate(9 6)" fill="none" stroke="#fff" stroke-width="1">
+      <path d="M0,0H220a25,25,0,0,1,25,25V45a0,0,0,0,1,0,0H25A25,25,0,0,1,0,20V0A0,0,0,0,1,0,0Z" stroke="none"/>
+      <path d="M.5.5H220A24.5,24.5,0,0,1,244.5,25V44.5a0,0,0,0,1,0,0H25A24.5,24.5,0,0,1,.5,20V.5A0,0,0,0,1,.5.5Z" fill="none"/>
+    </g>
+  </g>
+</svg>
